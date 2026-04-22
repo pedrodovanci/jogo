@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Jogo da Lary</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-label="Perguntas com botões">
+      <section class="qa" aria-label="Pergunta">
+        <h2 id="question" class="question">Você gosta de rosas?</h2>
+        <div id="arena" class="arena" aria-label="Respostas">
+          <button id="yesBtn" class="choice choiceYes" type="button">Sim</button>
+          <button id="noBtn" class="choice choiceNo" type="button">Não</button>
+        </div>
+        <button id="giftEmojiBtn" class="giftEmoji" type="button" hidden aria-label="Abrir presente">🎁</button>
+        <div id="photoWrap" class="photoWrap" hidden>
+          <img id="photo" class="photo" alt="Foto surpresa" src="./Gemini_Generated_Image_4wbcpi4wbcpi4wbc.png" />
+          <p id="photoHint" class="photoHint" hidden>
+            Se a imagem não carregar, confira se o arquivo está na mesma pasta do jogo.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
