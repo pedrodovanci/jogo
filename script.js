@@ -9,7 +9,7 @@ const photoHint = document.getElementById("photoHint");
 
 const steps = [
   { question: "Você gosta de rosas?" },
-  { question: "Você gosta de morenos?" },
+  { question: "Você gosta de bombom?" },
 ];
 
 let currentStep = 0;
